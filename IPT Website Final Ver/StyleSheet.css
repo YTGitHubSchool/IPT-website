@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+/* Universal */
+html,
+html * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0 0 2em;
+	font-family: Helvetica,Arial,san-serif;
+}
+
+header {
+	width: 100%;
+	top: 0;
+	padding: 1.5em;
+	position: fixed;
+}
+
+.navigation {
+	position: relative;
+	float: right;
+	z-index: 400;
+	top: 0;
+	left: 0;
+	width: 80%;
+	padding: .75em 1em 0 0;
+	opacity: .95;
+	background: none;
+}
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+.navigation ul li {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+.navigation ul li a {
+	font-size: 1em;
+	padding-bottom: .5em;
+	text-decoration: none;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	color: red;
+	-webkit-transition: color .3s;
+	transition: color .3s;
+}
+.navigation ul li a:hover {
+	outline: none;
+	border-bottom: 1px solid red;
+}
+
+h1 {
+	color: white;
+	font-size: 3em;
+	font-weight: 100;
+	padding: 2em 0 0 0;
+	letter-spacing: .36em;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+p {
+	color: black;
+}
+.m-t-h {
+	text-align: center;
+	padding: 5em;
+}
+
+.intro {
+	padding: 10em 0;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 100;
+	font-size: 2em;
+	padding: 1em 0 0;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+p {
+	color: black;
+	text-align:inherit;
+	padding: 2em 5em;
+	font-size: 1.1em;
+	line-height: 1.9;
+	opacity: 1;
+}
+
+h3 {
+	padding: 1em 5em;
+	
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 0px 30 0 50;
+}
+
+.row::after {
+	content:  "";
+	clear: both;
+	display: table;
+}
+
+.s-t-h {
+	clear: both;
+}
+
+.old {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 30em;
+	margin-bottom: 0.5em;
+}
+
+.new {
+	width: 300px;
+	height: 300px;
+	float: right;
+	margin-right: 30em;
+	margin-bottom: 0.5em;
+}
+
+.data-comp {
+	background-color: #121212;
+}
+
+
+
+.img-comp {
+	background-color: #121212;
+}
+
+.m-t-i {
+	text-align: center;
+	padding: 5em;
+}
+
+.c-b {
+	width: 1200px;
+	height: 900px;
+	margin-left: 20em;
+	margin-right: 20em;
+	
+}
+
+.eqa-i {
+	margin-left: 10em;
+	margin-bottom: 10em;
+}
+
+.m-t-a {
+	text-align: center;
+	padding: 5em;
+}
+
+.audio-comp {
+	background-color: #121212;
+}
+
+.img {
+	padding: 10em 0;
+}
+
+.sound {
+	padding: 10em 0;
+}
+
+.bit-depth {
+	margin-left: 30em;
+}
+
+.acal {
+	margin-left: 20em;
+}
+
+.rec-sam-rate {
+	margin-left: 50em;
+}
+
+.m-t-v {
+	text-align: center;
+	padding: 5em;
+	
+}
+
+.video {
+	background-color: #121212;
+	
+}
+
+.FPS {
+	margin-left: 50em;
+}
+
+.vcal {
+	margin-left: 50em;
+	margin-bottom: 10em;
+}
+
+
+
+.demoVid {
+	text-align: center;
+}
+
+.playbutton {
+	text-align: center;
+}
+
+.uvsc {
+	margin-left: 40em;
+}
